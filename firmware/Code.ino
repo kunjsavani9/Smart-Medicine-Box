@@ -4,13 +4,13 @@
 #define BLYNK_AUTH_TOKEN    "vD0ncWHf2FZPts3tdaRiMIXqL36o_ivP"
 #define BLYNK_PRINT Serial
 
-const char* WIFI_SSID     = "Kunj’s Iphone";
-const char* WIFI_PASSWORD = "12345678";
+const char* WIFI_SSID     = "<wifi_name>";
+const char* WIFI_PASSWORD = "<wifi_password>";
 
 // ─── Telegram Config ──────────────────────────────────────────────────────────
-const char* BOT_TOKEN      = "8729037996:AAFOzOf9RqgpAZSNP_znacGvOCVEoGC5BZE";
-const char* PATIENT_CHATID = "8571125601";
-const char* FAMILY_CHATID  = "5995143601";
+const char* BOT_TOKEN      = "<bot_token_from_godfather>";
+const char* PATIENT_CHATID = "<patient_chat_id";
+const char* FAMILY_CHATID  = "<family_chat_id";
 // ─────────────────────────────────────────────────────────────────────────────
 
 #include <WiFi.h>
