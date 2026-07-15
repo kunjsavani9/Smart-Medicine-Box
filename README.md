@@ -41,12 +41,18 @@ See [`hardware/`](hardware/) for the full circuit diagram.
 ## 📁 Repository Structure
 
 ```
-smart-medicine-box/
+Smart-Medicine-Box/
 ├── firmware/          # ESP32 Arduino sketch (.ino) + config template
 ├── hardware/          # Circuit diagram and wiring notes
-├── 3d-models/         # STL files + SolidWorks source (enclosure)
-├── docs/              # User manual, flowchart, function reference
-└── images/            # Build and assembly photos
+├── 3d-Models/         # Enclosure models — STL + SolidWorks source
+│   ├── Base.STL / Base.SLDPRT
+│   ├── Cap.STL  / Cap.SLDPRT
+│   ├── Cover.STL / Cover.SLDPRT
+│   └── Assem1.SLDASM        # Full assembly
+├── docs/              # report, poster
+├── images/            # Build and assembly photos, flow chart
+├── LICENSE            # MIT
+└── README.md
 ```
 
 ---
