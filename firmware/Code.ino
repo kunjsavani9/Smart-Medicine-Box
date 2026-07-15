@@ -1,7 +1,7 @@
 // ─── Fill these before uploading ──────────────────────────────────────────────
-#define BLYNK_TEMPLATE_ID   "<blynk_template_id"
-#define BLYNK_TEMPLATE_NAME "<blynk_template_name"
-#define BLYNK_AUTH_TOKEN    "<blynk_auth_token"
+#define BLYNK_TEMPLATE_ID   "<blynk_template_id>"
+#define BLYNK_TEMPLATE_NAME "<blynk_template_name>"
+#define BLYNK_AUTH_TOKEN    "<blynk_auth_token>"
 #define BLYNK_PRINT Serial
 
 const char* WIFI_SSID     = "<wifi_name>";
